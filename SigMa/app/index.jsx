@@ -10,7 +10,9 @@ export default function App() {
     return (
         <NavigationIndependentTree>
         <NavigationContainer theme={colorScheme === "dark" ? DarkTheme : null}>
-            oi
+            <View>
+                oi
+            </View>
         </NavigationContainer>
         </NavigationIndependentTree>
     );
